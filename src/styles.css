@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+body{
+    color: aliceblue;
+    top:0;
+    left:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #5f3d26;
+}
+.formMain{
+    background-color:#ad7145;
+    width: 600px;
+    margin: auto;
+}
+
+button{
+    font-size: large;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+input{
+    width: 100%;
+}
+
+.formContent{
+    margin-bottom: 15px;
+}
