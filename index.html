@@ -7,49 +7,62 @@
     <title>TP01 - SI WEB</title>
 </head>
 <body>
-    <h1>Formulaire</h1>
-    <form>
-        <div class="formMain">
-            <form id="myForm">
-                <div class="formContent">
-                    <label for="nom">Nom :</label>
-                    <input type="text" id="nom" name="nom" required>
+    <div class="centerPage">
+    <h1>CONNECTEZ-VOUS</h1>
+    <div class="formMain">
+        <form id="Formulaire">
+            <div class="formCheck">
+                <label for="civilite">Civilité : </label>
+                <div class="form-check-inline">
+                    <input type="radio" class="form-check-input" id="madame" name="civilite" value="Madame">
+                    <label class="form-check-label" for="madame">Madame</label>
                 </div>
-                <div class="formContent">
-                    <label for="prenom">Prénom :</label>
-                    <input type="text" id="prenom" name="prenom" required>
+                <div class="form-check-inline">
+                    <input type="radio" class="form-check-input" id="monsieur" name="civilite" value="Monsieur">
+                    <label class="form-check-label" for="monsieur">Monsieur</label>
                 </div>
-                <div class="formContent">
-                    <label for="adresse">Adresse :</label>
-                    <input type="text" id="adresse" name="adresse" required>
-                </div>
-                <div class="formContent">
-                    <label for="cp">Code Postal :</label>
-                    <input type="text" id="cp" name="cp" required>
-                </div>
-                <div class="formContent">
-                    <label for="ville">Ville :</label>
-                    <input type="text" id="ville" name="ville" required>
-                </div>
-                <div class="formContent">
-                    <label for="tel">Téléphone :</label>
-                    <input type="text" id="tel" name="tel" required>
-                </div>
-                <div class="formContent">
-                    <label for="email">Email :</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="formContent">
-                    <label for="civilite">Civilité :</label>
-                    <input type="text" id="civilite" name="civilite" required>
-                </div>
-                <div class="formContent">
-                    <label for="password">Mot de passe :</label>
-                    <input type="password" id="password" name="password" required>
-                </div>
-                <button type="button" onclick="onSubmit()">Login</button>
-            </form>
-        </div>
+            </div>            
+            <div class="formContent">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" required>
+            </div>
+            <div class="formContent">
+                <label for="prenom">Prénom</label>
+                <input type="text" id="prenom" name="prenom" required>
+            </div>
+            <div class="formContent">
+                <label for="adresse">Adresse</label>
+                <input type="text" id="adresse" name="adresse" required>
+            </div>
+            <div class="formContent">
+                <label for="cp">Code Postal</label>
+                <input type="text" id="cp" name="cp" required>
+            </div>
+            <div class="formContent">
+                <label for="ville">Ville</label>
+                <input type="text" id="ville" name="ville" required>
+            </div>
+            <div class="formContent">
+                <label for="tel">Téléphone</label>
+                <input type="text" id="tel" name="tel" required>
+            </div>
+            <div class="formContent">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="formContent">
+                <label for="password">Mot de passe</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="formContent">
+            <label for="confirmPassword">Confirmer le mot de passe :</label>
+            <input type="password" id="confirmPassword" name="confirmPassword"><br>
+
+            <button type="submit" onclick="onSubmit()">SE CONNECTER</button>
+        </form>
+    </div>
+    <div id="errorMessages" style="color: red;"></div>
+    </div>
 </body>
-<script src></script>
+<script src="src/main.js"></script>
 </html>

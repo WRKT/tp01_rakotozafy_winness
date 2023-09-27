@@ -6,11 +6,12 @@ body{
     color: aliceblue;
     top:0;
     left:0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #5f3d26;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #1b274e;
 }
 .formMain{
-    background-color:#ad7145;
+    color: rgb(240, 239, 237);
+    background-color:#1b274e;
     width: 600px;
     margin: 0 auto;
     padding : 30px;
@@ -19,12 +20,30 @@ body{
 button{
     font-size: large;
     font-weight: bolder;
-    margin-bottom: 15px;
+    margin: 20px 0;
+    width: 250px;
 }
 input{
     width: 100%;
+    border-radius: 5px;
 }
-
 .formContent{
     margin-bottom: 15px;
+}
+
+.formContent input{
+    height: 25px;
+    margin-top: 5px;
+}
+/* Check sur civilite */
+.formCheck {
+    margin-bottom: 20px;
+}
+.form-check-inline{
+    display: inline-flex; 
+    align-items: center; 
+    margin-right: 10px;
+}
+.form-check-inline input {
+    margin : 0 5px;
 }
